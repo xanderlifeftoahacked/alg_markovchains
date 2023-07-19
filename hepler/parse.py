@@ -3,8 +3,8 @@ import string
 
 morph = pm.MorphAnalyzer(lang='ru')
 
-with open('/home/xander/Documents/source1/cpp/andanj/hepler/orig.txt', 'r') as filein:
-    with open('/home/xander/Documents/source1/cpp/andanj/hepler/new.txt', 'w') as fileout:
+with open('/home/xander/Code/Cpp/FunnyFun/hepler/orig.txt', 'r') as filein:
+    with open('/home/xander/Code/Cpp/FunnyFun/hepler/new.txt', 'w') as fileout:
         for line in filein:
             if line != "\n":
                 line = line.lower()
